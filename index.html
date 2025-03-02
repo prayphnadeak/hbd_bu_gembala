@@ -3,11 +3,28 @@
     <style>
       /* Bagian untuk memunculkan background foto*/
       body {
+        position: relative;
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+      }
+      
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         background-image: url("https://usefulnext.com/wp-content/uploads/2024/05/Happy-Birthday-Cute-Gift-with-Flowers-and-Balloons.jpg");
         background-repeat: repeat;
         background-position: center;
         background-attachment: fixed;
+        background-size: cover;
+        filter: blur(8px); /* Menambahkan blur */
+        z-index: -1;
       }
+      
     </style> 
 
     
