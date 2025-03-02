@@ -1,0 +1,37 @@
+<html>
+  <body>
+    <style>
+      /* Bagian untuk memunculkan background foto*/
+      body {
+        background-image: url("https://usefulnext.com/wp-content/uploads/2024/05/Happy-Birthday-Cute-Gift-with-Flowers-and-Balloons.jpg");
+        background-repeat: repeat;
+        background-position: center;
+        background-attachment: fixed;
+      }
+    </style> 
+
+    
+    <div id="bodyblur">
+    <center>
+    <h1 style="color: rgb(238, 24, 9);">HAPPY BIRTHDAY! </h1>
+    <img src="https://media.tenor.com/jDlsf-k-FooAAAAi/kawaii-loveletter.gif/" size="4">
+    <h1 style="color: white;">Mau baca ucapan spesial dari kami?</h1>
+    <button id="btn_mau" onclick="window.open('others.html')" style="position:left"><strong><font size="6">Mau Baca Dong</font></strong></button>&nbsp;
+    <button id="btn_gamau" onclick="gamau(this)" style="position: absolute"><strong><font size="6">Nggak Mau. Males ah!</font></strong></button>
+    </center>
+    </div>
+  </body>
+
+  
+  <script>
+    /*--Javascript untuk membuat animasi tombol "Nggak Mau. Males !" agar dapat bergerak*/
+    function gamau(id) {
+      var mau = document.getElementById("btn_mau");
+      var i = Math.floor(Math.random() * 320) + 1;
+      var j = Math.floor(Math.random() * 120) + mau.offsetTop;
+      id.style.left = i + "px";
+      id.style.top = j + "px";
+    }
+  </script>
+  
+</html>

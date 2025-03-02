@@ -1,0 +1,141 @@
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script><link href="https://maukahkamu.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" /><script src="https://maukahkamu.likeadream.repl.co/script.js"></script>
+<head>
+<title>Happy Birthday!</title>
+<!--Copyright 2024 by Pray Putra Hasianro Nadeak-->
+</head>
+<body>
+<style>
+
+/* Bagian untuk memunculkan background foto*/
+
+body {
+    background-image: url("https://i.ibb.co.com/dwF78B1r/701c722e-d314-4ddf-9088-d87581b58eb2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    transition: all 0.3s ease;
+    overflow: hidden; /* Mencegah scrollbar yang tidak perlu */
+}
+
+#bodyblur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Efek blur dihapus dengan menghapus backdrop-filter */
+}
+
+</style><div id="bodyblur"></div>
+
+<!-- Bagian untuk memunculkan emot beruang lucu di atas-->
+<!-- Emot bisa diganti dengan gif lain yang ada du media.tenor.com lalu copy-paste link emot nya untuk gantikan link img src di bawah ini-->
+<div id="konten"><div id="fotoloveu"><div class="image">
+<!-- Foto Akhir -->
+<center>
+    <img src="https://www.gifcen.com/wp-content/uploads/2022/08/happy-birthday-gif-74.gif" id="animasi" width="100px" height="100px"/>
+    <img src="https://www.gifcen.com/wp-content/uploads/2022/08/happy-birthday-gif-74.gif" id="animasi" width="100px" height="100px"/>
+    <img src="https://www.gifcen.com/wp-content/uploads/2022/08/happy-birthday-gif-74.gif" id="animasi" width="100px" height="100px"/>
+    <img src="https://www.gifcen.com/wp-content/uploads/2022/08/happy-birthday-gif-74.gif" id="animasi" width="100px" height="100px"/>
+    <img src="https://www.gifcen.com/wp-content/uploads/2022/08/happy-birthday-gif-74.gif" id="animasi" width="100px" height="100px"/>
+</center>
+</div><span maxlength="111" id="hasiljawab"></span><span id="sp2"></span><span id="sp3"></center></span></div>
+
+<script> 
+    var a=0,finish;
+    finish = "Yeaayyy!";
+    var i=0,finish2;
+    finish2 = "Apapun jawabannya, kirim pesan ke WhatsApp aku ya!";  
+    function play() {
+    // Audio bisa diganti dengan mp3 yang sudah dimasukkan ke dalam folder kode program lalu ganti Cinta Luar Biasa.mp3 dengan lagu favoritmu
+    var audio = new Audio('Selamat Ulang Tahun Kami Ucapkan Padamu.mp3');audio.play();audio.loop=true;audio.addEventListener('ended', function() {this.currentTime = 0;this.play();}, false);}         
+    function bukaWa(){window.location = "https://api.whatsapp.com/send?phone=&text=" + window.nama + " udah liat semuanya ><" + "%0A%0A" + "Rani," + " " + prtnya + "%0A%0A" + "%3D%3E%20" + tnya + "%0A%0A" + "- " + dateTime;} 
+</script>
+    
+
+<!--Bagian box pesan romantis dimulai dari sini-->
+<script type="text/javascript">            
+            var today = new Date();
+            var date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear()+'.';
+            var dateTime = date;
+            const swals = Swal.mixin({
+                allowOutsideClick: false,
+            });
+            async function mulai(){          	
+                var { value: nama } = await swals.fire({
+                    title: 'Gimana rasanya di usia yang baru ini bu gembala?',
+                    input: 'text',
+                    confirmButtonText: 'kirim perasaan',
+                    showCancelButton: false,
+                });  
+
+                if(nama && nama.length < 111){
+                	play();
+                	window.nama = nama;
+
+                    // box pesan yang muncul dapat diatur sesuai kemauandengan menambah atau mengurangi baris await swals.fire
+                    // box pesan dimulai dari sini
+                    await swals.fire('Semoga bu gembala makin bersukacita di usia yang baru ini!');
+                    await swals.fire('Kiranya Tuhan tambahkan berkat-Nya pada bu gembala beserta keluarga');
+                    await swals.fire('Tuhan sertai dalam pekerjaan dan pelayanannya');
+                    await swals.fire('Dimampukan untuk membesarkan Madeline dalam kasih Tuhan');
+                    await swals.fire('Dan diberi kekuatan untuk terus mendampingi bapak gembala dengan setia');
+                    await swals.fire('Serta dimampukan untuk membimbing anak2 Komsel HKBP Petojo');
+                    await swals.fire('agar semakin bertumbuh di dalam pengenalan akan Kristus');
+                    await swals.fire('Tetap doakan kami agar kami makin semangat join zoom komsel');
+                    await swals.fire('serta membagikan firman dan kesaksian yang menguatkan');
+                    await swals.fire('dan mampu menghidupi teladan jemaat Berea dalam Kisah Para Rasul 17:11');
+                    await swals.fire('yaitu menjadi jemaat Berea yang cinta akan firman');
+                    await swals.fire('dan mengaplikasikan firman dalam kehidupan sehari-hari');
+                    await swals.fire('LIVE BY FAITH, NOT BY SIGHT!!!');
+                    // box pesan berakhir sini
+        
+                    prtnya = "Apa harapan Bu Gembala di usia yang baru ini?";
+                    //
+                    window.prtnya = prtnya;
+                    var { value: tnya } = await swals.fire({
+                    title: prtnya,
+                    input: 'text',
+                    confirmButtonText: 'Kirim Segenap Harapan!',
+                    showCancelButton: false,
+                });             
+                if(tnya && tnya.length < 111){
+                	window.tnya = tnya;
+                    document.getElementById("hasiljawab").innerHTML = "Jawaban dari&nbsp;" + nama + ":" + "&nbsp;<b>" + tnya + "</b>";
+                    await swals.fire(`Happy Birthday bu Gembala. Warm regards, Komsel HKBP Petojo`);
+                    expl();
+                } else {
+                    await swals.fire('Ups!', 'Tidak boleh kosong / lebih dari 110 karakter, ya!');
+                    mulai();
+                }                 
+                //                                   
+                } else {
+                    await swals.fire('Ups!', 'Nama tidak boleh kosong atau lebih dari 110 karakter, ya!');
+                    mulai();
+                }
+            }            
+            mulai();
+</script>
+<!--Bagian box pesan romantis berakhir dari sini-->
+
+<!-- Di bawah ini JANGAN DIEDIT SEMBARANGAN -->
+<script>
+const body = document.querySelector("body");
+function createHeart() {
+    const heart = document.createElement("div");
+    heart.className = "fas fa-heart";
+    heart.style.left = (Math.random() * 90)+"vw";
+    heart.style.animationDuration = (Math.random()*3)+2+"s"
+    body.appendChild(heart);
+}
+setInterval(function name(params) {
+    var heartArr = document.querySelectorAll(".fa-heart")
+    if (heartArr.length > 100) {
+       heartArr[0].remove()
+    }
+},100)
+</script>
+</body>
+</html>
